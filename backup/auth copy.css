@@ -1,0 +1,44 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.auth-background {
+  position: relative;
+  right: 0.9em;
+  background: url("/img/asset-auth/asset-auth-background.webp");
+  background-repeat: none;
+  background-size: cover;
+  height: 200vh;
+  z-index: 1;
+}
+
+.form-section {
+  padding-right: 6em;
+}
+
+.form-background {
+  background-color: #ffffff;
+}
+
+.form-size {
+  margin: 10em 0;
+  padding: 0 5em;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-white:hover {
+  box-shadow: 1px 1px 10px #000;
+}
+
+.text-account {
+  position: relative;
+  text-align: center;
+  top: -32px;
+  background-color: #fff;
+  width: 52%;
+  margin: 0 auto;
+}

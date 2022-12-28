@@ -1,0 +1,97 @@
+body {
+  background-color: #f8f8f8;
+  font-family: "Rubik", sans-serif;
+}
+
+.auth-background {
+  position: relative;
+  right: 0.9em;
+  background: url("/img/asset-auth/asset-auth-background2.webp");
+  background-repeat: none;
+  background-size: cover;
+  height: 150vh;
+  z-index: 1;
+}
+
+/* .form-section {
+  padding-right: 6em;
+} */
+
+.form-background {
+  background-color: #ffffff;
+}
+
+.form-size {
+  margin: 4em 0;
+  padding: 0 1em;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-white:hover {
+  box-shadow: 1px 1px 10px #000;
+}
+
+/* .text-account {
+  position: relative;
+  text-align: center;
+  top: -32px;
+  background-color: #fff;
+  width: 52%;
+  margin: 0 auto;
+} */
+/* end form */
+
+/* offering panel */
+.card {
+  position: relative;
+  top: -9em;
+  z-index: 9;
+  /* margin: 0 10em; */
+}
+/* end of offering panel  */
+/* end */
+
+/* forgotpassword */
+/* background main */
+.background-main {
+  background-image: url("/img/asset-auth/asset-auth-background3.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-section-1 {
+  margin-bottom: 4em;
+}
+
+.heading-section-1 h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+
+.box {
+  max-width: 50%;
+  /* margin: 0 auto; */
+}
+
+.btn-resend {
+  padding: 1.3em 5em;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 576px) {
+  .card {
+    top: -2em;
+  }
+}
+
+/* footer */

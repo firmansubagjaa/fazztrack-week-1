@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="Styles/globals.css">
+  <link rel="stylesheet" href="Styles/payment.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-white py-3">
+    <div class="container">
+      <!-- navbar icon -->
+      <a class="navbar-brand" href="#">
+        <img src="img/asset-globals/asset-logo-coffee.png" alt="" />
+        <b>Coffee Shop</b>
+      </a>
+
+      <!-- navbar toggle -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="list-product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="payment.html">Your Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href=""><img src="img/asset-globals/Vector.webp" class="img-fluid w-75" alt="search"></a>
+          </li>
+          <li class="nav-item">
+            <a href=""><img src="img/asset-globals/chat (1) 1.png" class="img-fluid w-75" alt="message"></a>
+          </li>
+          <li class="nav-item">
+            <a href=""><img src="img/asset-globals/image 39.png" class="img-fluid rounded-circle w-75"
+                alt="profile"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+
+  <!-- section -->
+  <form action="">
+    <section class="background-payment">
+      <div class="container">
+        <div class="row align-items-center mt-5">
+          <div class="col-12 col-sm-12 col-md-6 me-5">
+            <!-- heading -->
+            <div class="heading-1">
+              <h1>
+                Checkout your item now!
+              </h1>
+            </div>
+            <!-- end of heading -->
+
+            <!-- card-property -->
+            <div class="card card-order-summary rounded-4">
+              <div class="card-body p-5">
+                <!-- card-text -->
+                <div class="text-center">
+                  <h3 class="card-title pt-7 fs-1">Order Summary</h3>
+                </div>
+                <!-- end of card-text -->
+
+                <!-- card-isi -->
+                <div class="d-flex align-items-center">
+                  <!-- quantity 1 -->
+                  <div class="flex-shrink-0">
+                    <img src="img/asset-payment/order-list-2.png" alt="quantity-1" class="img-fluid">
+                  </div>
+                  <div class="flex-grow-1 flex-row ms-3 lh-lg">
+                    Hazelnut Latte <br>
+                    x1 <br>
+                    Regular <br>
+                  </div>
+                  <div class="flex-shrink-0">
+                    <p>IDR 24.0</p>
+                  </div>
+                </div>
+                <!-- end of quantity-1 -->
+
+                <!-- quantity-2 -->
+                <div class="d-flex align-items-center mt-3">
+                  <div class="flex-shrink-0">
+                    <img src="img/asset-payment/order-list-1.png" alt="quantity-2" class="img-fluid">
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    Chicken Fire Wings <br>
+                    x2 br
+                  </div>
+                  <div class="flex-shrink-0">
+                    IDR 30.0
+                  </div>
+                </div>
+                <!-- end of quantitiy-2 -->
+
+                <!-- line -->
+                <div>
+                  <hr width="100%" color="#c4c4c4">
+                </div>
+                <!-- end of line -->
+
+                <!-- total section -->
+                <div class="d-flex align-items-center ">
+                  <div class="p-3 w-75">SUBTOTAL</div>
+                  <div class="p-3 flex-shrink-0">IDR 120.000</div>
+                </div>
+
+                <div class="d-flex align-items-center ">
+                  <div class="p-3 w-75">FAX & FEES</div>
+                  <div class="p-3 flex-shrink-0">IDR 20.000</div>
+                </div>
+
+                <div class="d-flex align-items-center mb-5">
+                  <div class="p-3 w-75">SHIPPING</div>
+                  <div class="p-3 flex-shrink-0">IDR 10.000</div>
+                </div>
+
+                <div class="d-flex">
+                  <div class="p-3 w-75">
+                    <h3>TOTAL</h3>
+                  </div>
+                  <div class="p-3 flex-shrink-0">
+                    <h3>IDR 150.000</h3>
+                  </div>
+                </div>
+
+              </div>
+              <!-- end of total section -->
+
+              <!-- end of card-isi -->
+            </div>
+          </div>
+          <!-- end of card-propert y-->
+          <div class="col-5">
+            <!-- address card -->
+            <div class="d-flex align-items-center">
+              <div class="flex-grow-1">
+                <div class="heading-1">
+                  <h3>Address Details</h3>
+                </div>
+              </div>
+              <div class="p-3">
+                <div class="link-1">
+                  <a href="">edit</a>
+                </div>
+              </div>
+            </div>
+            <!-- end of address & edit -->
+            <!-- card-address -->
+            <div class="card rounded-4 mb-5">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dolores eaque vero blanditiis error,
+                minima
+                nemo inventore repudiandae, aliquid, autem atque maxime molestias voluptate nam temporibus quam tempora
+                unde
+                veniam.
+              </div>
+            </div>
+            <!-- end of card-address -->
+
+            <!-- payment method card-->
+            <div class="heading-1">
+              <h3>Payment Method</h3>
+            </div>
+            <div class="card rounded-4 mb-5">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste aperiam facilis? Fuga facilis illo
+                quaerat adipisci harum veritatis ipsam nesciunt amet ut, totam ipsa recusandae autem quasi fugit
+                perferendis eveniet magnam quod porro minima quas laboriosam ducimus odit doloribus! Pariatur veritatis
+                veniam numquam nihil facere repellendus dignissimos voluptatem ipsum!
+              </div>
+            </div>
+            <!-- end of payment method card -->
+
+            <!-- button -->
+            <div class="d-grid">
+              <button type="button" class="btn btn-brown-2 py-3 rounded-4">Confirm and Pay</button>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      </div>
+    </section>
+  </form>
+  <!-- end of section -->
+
+  <footer class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8">
+        <h4 class="mb-3"><img src="img/asset-globals/asset-logo-coffee.png" class="img-fluid me-3"
+            alt="logo-coffee">Coffee Shop
+        </h4>
+        <p class="lh-lg">Coffee Shop is a store that sells some good <br>meals, and especially coffee. We provide
+          <br>high quality
+          beans
+        </p>
+        <a href="#"><img src="img/asset-auth/asset-sosmed/Facebook.svg" alt="facebook"></a>
+        <a href="#"><img src="img/asset-auth/asset-sosmed/Twitter.svg" alt="twitter"></a>
+        <a href="#"><img src="img/asset-auth/asset-sosmed/Instagram.svg" alt="instagram"></a>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2">
+        <div class="row">
+          <h4 class="ms-2 mb-2">Product</h4>
+          <div class="col-12 pe-5 mb-5">
+            <button class="btn btn-link">Download</button>
+            <button class="btn btn-link">Pricing</button>
+            <button class="btn btn-link">Locations</button>
+            <button class="btn btn-link">Countries</button>
+            <button class="btn btn-link">Blog</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2">
+        <div class="row">
+          <h4 class="ms-2 mb-2">Engage</h4>
+          <div class="col-12 pe-5 mb-3">
+            <button class="btn btn-link">Coffee Shop?</button>
+            <button class="btn btn-link pe-5">FAQ</button>
+            <button class="btn btn-link">About</button>
+            <button class="btn btn-link">Privacy</button>
+            <button class="btn btn-link">Terms of Service</button>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">©2020CoffeeStore</p>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+/* body {
+  height: 500em;
+} */
+
+.btn-signup {
+  padding: 9px 30px;
+  border-radius: 20px;
+}
+/* end of navbar */
+
+/* section one jumbotron */
+.background-jumbotron {
+  background: url("../img/asset-landingpage/asset-jumbotron.webp");
+  height: 100vh;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+  color: #f8f8f8;
+}
+
+.col-left h1 {
+  line-height: 1.6;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+
+.col-left h3 {
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.col-right {
+  /* border: 1px solid wheat; */
+  margin-top: 20px;
+  float: right;
+  width: 50%;
+}
+
+.col-right input {
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  max-width: 100%;
+}
+
+/* end of section one jumbotron */
+
+/* section two info pannel */
+
+.card {
+  position: relative;
+  z-index: 1;
+  top: -7em;
+}
+
+.card-offering {
+  position: relative;
+  top: -9em;
+  z-index: 9;
+}
+
+.box {
+  position: relative;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.box p {
+  margin-left: 10px;
+}
+/* end of info pannel */
+
+/* section three */
+.background-section-3 {
+  position: relative;
+  bottom: 190px;
+  background-color: #fff;
+  height: 100vh;
+  padding-top: 15em;
+  padding-bottom: 40rem;
+}
+/* end of section three */
+
+/* section four */
+.background-section-4 {
+  background-color: #f4f4f4;
+  height: 210em;
+  margin-top: -12em;
+}
+
+.heading-section-4 {
+  padding-top: 10em;
+}
+
+/* .card-2 {
+  position: relative;
+  top: 10em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  display: flex;
+  align-items: center;
+} */
+
+.card-product {
+  margin-bottom: 5em;
+}
+
+.card-items {
+  padding: 5em;
+  margin-top: 10em;
+}
+
+.card-2-1 {
+  padding-bottom: 18em;
+}
+
+.card-2-2 {
+  padding-bottom: 14em;
+}
+.card-3 {
+  position: relative;
+  top: 3em;
+  width: 31%;
+  height: 12em;
+  margin: 10px;
+}
+/* end of section 4 */
+
+/* section 5 */
+
+.heading-section-5 p {
+  margin-bottom: 10em;
+}
+
+.heading-section-5 h1,
+p {
+  line-height: 1.6;
+}
+/* end of section 5 */
+
+/* section 6 */
+.heading-section-6 {
+  position: relative;
+  top: 30em;
+}
+
+@media only screen and (max-width: 576px) {
+  .background-jumbotron {
+    height: 150vh;
+  }
+
+  .box {
+    border-bottom: 1px solid #eeeff2;
+    justify-content: start;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .background-jumbotron {
+    height: 85vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .box {
+    border-right: 1px solid #eeeff2;
+  }
+
+  .col-right input {
+    max-width: 50%;
+  }
+}

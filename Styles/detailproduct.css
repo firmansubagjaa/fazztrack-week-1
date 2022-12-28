@@ -1,0 +1,64 @@
+.background-detail-product {
+  background-color: #fff;
+  height: 100%;
+}
+
+.breadcumb,
+a {
+  text-decoration: none;
+  color: #4f5665;
+  transition: 0.3s;
+}
+
+.breadcumb,
+a:hover {
+  text-decoration: none;
+  color: #6a4029;
+}
+
+.breadcumb li {
+  color: #6a4029;
+}
+
+span {
+  color: #6a4029;
+  font-weight: bold;
+}
+
+.btn-brown-2 btn-check:enabled {
+  color: #6a4029;
+}
+
+.heading-1 h1 h4 {
+  font-weight: bolder;
+}
+
+.text-modify p {
+  font-size: 25px;
+  padding: 0 4.5em;
+}
+.d-grid {
+  padding: 0.5em 7em;
+}
+
+.input-set-time {
+  border-radius: 10px;
+  width: 75%;
+}
+
+footer {
+  position: relative;
+  top: 10em;
+}
+
+/* .card-2 {
+  width: 100px;
+} */
+
+.card-size-checkout {
+  top: 5em;
+}
+
+.card-3 {
+  width: 87%;
+}

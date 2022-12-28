@@ -1,0 +1,65 @@
+body {
+  background: #f8f8f8;
+  font-family: "Rubik", sans-serif;
+}
+
+.btn-signup {
+  padding: 9px 30px;
+  border-radius: 20px;
+}
+/* end of navbar */
+
+/* section one jumbotron */
+.background-jumbotron {
+  background: url("../img/asset-landingpage/asset-jumbotron.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f8f8f8;
+}
+
+.col-left h1 {
+  line-height: 1.6;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+
+.col-left h3 {
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.col-right {
+  /* border: 1px solid wheat; */
+  margin-top: 20px;
+  float: right;
+  width: 50%;
+}
+
+.col-right input {
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+}
+/* end of section one jumbotron */
+
+/* section two info pannel */
+.box {
+  border: 1px solid #eeeff2;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 15em;
+}
+
+.box .user {
+  background: url("../img/asset-info-pannel/user.png");
+  background-repeat: no-repeat;
+}
+
+.col-box {
+  border-right: 1px solid #eeeff2;
+  padding: 5em 0;
+}

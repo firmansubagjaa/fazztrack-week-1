@@ -1,0 +1,88 @@
+.background-section-one {
+  background-color: #fff;
+}
+
+/* nav-tabs */
+.nav-tabss {
+  border: 0;
+}
+
+.nav-link {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.3s;
+}
+
+.active:enabled {
+  color: #6a4029;
+  border-bottom: 5px solid #6a4029;
+}
+
+.false {
+  color: #6a4029;
+}
+
+/* end of nav-tabss */
+
+.card-product {
+  position: relative;
+  right: 30px;
+  width: 11.6em;
+  margin-bottom: 2em;
+}
+
+.card-product img {
+  position: relative;
+  bottom: 50px;
+}
+
+.card-product h4 {
+  position: relative;
+  bottom: 0.5em;
+}
+
+.card-product {
+  position: relative;
+  right: 30px;
+}
+
+a,
+.card-shadow {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.card-shadow:hover {
+  box-shadow: 1px 1px 10px rgb(99, 99, 99);
+}
+
+.card-color {
+  background: #ffcb65;
+  box-shadow: 30px 10px 0 #000, 60px 20px 0 #895537;
+}
+
+.card-title {
+  padding: 0 70px;
+}
+
+.card-text {
+  padding: 0 20px;
+}
+
+.col-left-promo-product {
+  position: relative;
+  left: 50px;
+  border-right: 1px solid black;
+  padding-right: 7em;
+}
+
+.box {
+  border-bottom: 4px dashed black;
+}
+
+.card-promo {
+  position: relative;
+  right: 50px;
+  width: 16.5em;
+}

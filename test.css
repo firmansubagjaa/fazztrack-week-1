@@ -1,0 +1,23 @@
+.nav-link {
+  font-weight: bold;
+  border: 0;
+  color: #6a4029;
+}
+
+.nav-link:hover {
+  color: #6a4029;
+  text-shadow: 1px 1px 20px #6a4029;
+}
+
+.nav-tabss {
+  border: 0;
+}
+
+.active:enabled {
+  color: #6a4029;
+  border-bottom: 5px solid #6a4029;
+}
+
+.false {
+  color: #6a4029;
+}
